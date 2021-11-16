@@ -1,0 +1,86 @@
+/* MAIN COVER FOR PRESENTATION */
+
+.filter {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .7;
+    position: absolute;
+}
+
+/*HEADPHONES IMG */
+
+.icons-container {
+    border-radius: 15px;;
+}
+
+/**MAP**/
+
+.mapouter {
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
+
+
+/** MEDIA QUERIES **/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .icons-container {
+        position: relative;
+        top: 10px;
+        width: 250px;
+        height: 200px;
+        margin: 0 auto;
+      }
+
+      .presentation-title {
+        font-size: 5em;
+      }
+
+      .mapouter {
+        height: 200px;
+        width: 300px;
+    }
+      
+      .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 200px;
+        width: 300px;
+      }
+    }
+
+/* FOOTER */
+
+footer {
+    
+}
+      
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .icons-container {
+        position: relative;
+        max-width: 450px;
+        height: 300px;
+        max-height: 300px;
+        margin: 0 auto;
+      }
+}
